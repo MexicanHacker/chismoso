@@ -17,10 +17,9 @@ options = {
     :address => 'smtp.gmail.com',
     :port => '587',
     :domain => 'tacitknowledge.com',
-    :user_name => 'xxx@tacitknowledge.com',
-    :password => 'xxx',
-    :authentication => :plain,
-    :enable_starttls_auto => true
+    :user_name => 'ogonzalez@tacitknowledge.com',
+    :password => 'ja-pazy-lo-ren',
+    :authentication => :plain
     }
   } 
 
