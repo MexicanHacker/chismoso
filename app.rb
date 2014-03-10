@@ -1,8 +1,8 @@
 require 'sinatra'
-require 'mailer'
+require './lib/mailer'
 
 get '/' do
-  "Hola Enfermera"
+  "Hola, Enfermera!"
 end
 
 post '/push' do
