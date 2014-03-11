@@ -6,5 +6,5 @@ get '/' do
 end
 
 post '/push' do
-  Mail.send_mail
+  Mailer.send_mail
 end

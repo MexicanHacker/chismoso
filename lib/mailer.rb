@@ -15,7 +15,11 @@ module Mailer
         }
       } 
 
-      Pony.mail(options)    
+      begin
+        Pony.mail(options)    
+      rescue Exception => e
+        puts "caught exception #{e}! ohnoes!"
+      end
   end
   
 end

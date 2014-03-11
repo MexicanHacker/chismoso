@@ -14,4 +14,9 @@ describe 'The app' do
     last_response.body.should eql 'Hola, Enfermera!'
   end
 
+  it "should test push" do
+    post '/push'
+    last_response.should be_ok    
+  end
+
 end
