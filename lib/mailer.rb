@@ -14,12 +14,8 @@ module Mailer
         :password => ENV['MAIL_PASSWORD']
         }
       } 
-
-      begin
-        Pony.mail(options)    
-      rescue Exception => e
-        puts "caught exception #{e}! ohnoes!"
-      end
+      Pony.mail(options)    
+      
   end
   
 end
