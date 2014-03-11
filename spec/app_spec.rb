@@ -1,5 +1,7 @@
 require 'rack/test'
+require 'pry'
 require './app'
+require 'spec_helper'
 
 describe 'The app' do
   include Rack::Test::Methods

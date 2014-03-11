@@ -1,3 +1,5 @@
+require 'pony'
+
 module Mailer
   
   def self.send_email
@@ -14,8 +16,7 @@ module Mailer
         :password => ENV['MAIL_PASSWORD']
         }
       } 
-      Pony.mail(options)    
-      
+      Pony.mail(options)
   end
   
 end
