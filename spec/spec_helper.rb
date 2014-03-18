@@ -15,4 +15,5 @@ RSpec.configure do |conf|
   conf.before(:each) do
     do_not_send_email
   end
+  
 end
